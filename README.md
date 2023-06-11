@@ -1,6 +1,4 @@
-===================
-=: Core Concepts :=
-===================
+# Core Concepts
 
 - The first concept I used was 2-D arrays, which implemented the board of my game. This feature is appropriate because Minesweeper is a game with
   a grid, where each cell holds a value. As a result, my 2-D array holds numbers that correspond to different things of the game, such as mines or 
@@ -25,9 +23,7 @@
   how far to iterate from the original zero square, iteration is not fitting for this function. Recursion is more appropriate as the squares can 
   just keep being revealed until we hit the base case, which is when we hit a connecting non-zero, non-mine square. 
 
-=========================
-=: Your Implementation :=
-=========================
+# Your Implementation
 - The Minesweeper class is the model for the game. This model is what determines the view of the game board and status. Controllers can also change 
 this model.
 	
